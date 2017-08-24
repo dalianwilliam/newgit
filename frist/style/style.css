@@ -1,0 +1,16 @@
+/*
+*在火狐响应式窗口才能调试效果 IE低版本浏览器不支持
+*/
+@import url("stylemob.css") screen and (max-device-width:550px);
+@import url("stylepad.css") screen and (min-device-width:551px) and (max-device-width:1000px);
+@import url("stylelaptop.css") screen and (min-device-width:1001px) and (max-device-width:1599px);
+@import url("stylepc.css") screen and (min-device-width:1600px);
+@import url("font-awesome.min.css");
+body{margin:0px; background-color:#121212; background-image:url(../images/bga.png);}
+body,input,textarea{ font-family:"微软雅黑",Georgia, "Times New Roman", Times, serif,Arial, Helvetica, sans-serif;}
+
+.tac{ text-align:center;}
+.fl{ float:left;}
+.fr{ float:right;}
+.ld{ clear:both; height:0px;}
+.xiana{ border-bottom:#CCC dotted 1px; margin-bottom:10px;}
